@@ -8,14 +8,14 @@ public class calculator {
         // Membuat Scanner class
         Scanner input = new Scanner(System.in);
         // minta pengguna untuk milih operasi
-        System.out.println("Pilih Operasi : +, -, *, atau / ");
+        System.out.print("Pilih Operasi : +, -, *, atau / :");
         operator = input.next().charAt(0);
 
         // minta paengguna untuk memasukan nomer
-        System.out.println("Masukan Angka Pertama : ");
+        System.out.print("Masukan Angka Pertama :");
         number1 = input.nextDouble();
 
-        System.out.println("Masukan Angka Kedua : ");
+        System.out.print("Masukan Angka Kedua :");
         number2 = input.nextDouble();
 
         switch (operator) {
@@ -31,12 +31,12 @@ public class calculator {
                 result = number1 * number2;
                 System.out.println(number1 + " * " + number2 + " = " + result);
                 break;
-            case '/': 
+            case '/':
                 result = number1 / number2;
-                System.out.println(number1+" / "+number2+" = "+result);
+                System.out.println(number1 + " / " + number2 + " = " + result);
                 break;
             default:
-            System.out.println("Invalid Operasi");
+                System.out.println("Invalid Operasi");
                 break;
         }
         input.close();
