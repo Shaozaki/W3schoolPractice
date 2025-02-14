@@ -3,7 +3,7 @@
  mulai dari baris pertama dari variabel dideklarasikan dan seterusnya
  
  */
-public class MethodScoupe {
+public class MethodScope {
  public static void main(String[] args) {
     // kode disini tidak bisa memakai variabel variabel X
     
@@ -30,6 +30,6 @@ public class MethodScoupe {
     }
 
     // kode disini tidak bisa memakai variabel s
-    
+
  }
 }
