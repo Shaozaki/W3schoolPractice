@@ -12,7 +12,7 @@ public class nilaiPengembalian {
     }
     //membuat void main untuk memanggil methode
     public static void main(String[] args){
-        //metohde bisa didefinisikan dengan variabel 
+        //methode bisa didefinisikan dengan variabel 
         int z = myMethod(6, 8 );
         //Cetak hasil dari variabel z
         System.out.println(z);
