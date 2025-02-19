@@ -36,7 +36,7 @@ public class calculator {
                 System.out.println(number1 + " / " + number2 + " = " + result);
                 break;
             default:
-                System.out.println("Invalid Operasi");
+                System.out.println("Operasi invalid");
                 break;
         }
         input.close();
