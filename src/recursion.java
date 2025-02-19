@@ -15,6 +15,8 @@ public class recursion {
         } else {
             return 0;
         }
+
+        // hasil 55
     }
     /*
      * ketika fungsi sum() dipanggil, maka akan menambahkan parameter 'k' ke sum
@@ -26,7 +28,7 @@ public class recursion {
      * ...
      * 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 + sum(0)
      * 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 + 0
-     * fungsi berhenti memanggil dirinya sendiri sejak 'k' adalah 0, program berhenti disitu dan returns result.
+     * fungsi berhenti m emanggil dirinya sendiri sejak 'k' adalah 0, program berhenti disitu dan returns result.
      */
 
      
